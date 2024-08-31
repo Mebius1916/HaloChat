@@ -1,0 +1,44 @@
+{
+  "name": "halochat",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@cloudinary-util/url-loader": "^5.5.0",
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^5.16.7",
+    "@mui/material": "^5.16.7",
+    "bcryptjs": "^2.4.3",
+    "date-fns": "^3.6.0",
+    "mongo": "latest",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.5.3",
+    "next": "latest",
+    "next-auth": "^5.0.0-beta.19",
+    "next-cloudinary": "^5.18.0",
+    "pnpm": "^9.7.1",
+    "pusher": "^5.2.0",
+    "pusher-js": "8.4.0-rc2",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hook-form": "^7.52.2",
+    "react-hot-toast": "^2.4.1",
+    "react-toastify": "^10.0.5",
+    "toast": "^0.5.4"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
